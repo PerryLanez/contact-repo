@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h1, h2 {
+      color: #0a66c2;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 data-testid="test-about-title">About Me</h1>
+  </header>
+
+  <main role="main" data-testid="test-about-page">
+    <nav>
+        <a href="index.htm">Home</a>
+    </nav>
+    <hr>
+    <section data-testid="test-about-bio">
+      <h2>Biography</h2>
+      <p>
+        Hello! I'm Perry, a curious and passionate learner with a deep love for technology, web development, and self-improvement.
+        I grew up fascinated by how things work—especially computers and human behavior—and that fascination drives most of what I do today.
+      </p>
+    </section>
+
+    <section data-testid="test-about-goals>
+      <h2>Goals</h2>
+      <ul>
+        <li>Build and launch a meaningful software product</li>
+        <li>Contribute to open-source communities</li>
+        <li>Continue learning and improving every year</li>
+        <li>Maintain a healthy work-life balance</li>
+      </ul>
+    </section>
+
+    <section data-testid="test-about-confidence">
+      <h2>Areas of Confidence</h2>
+      <ul>
+        <li>Web development (HTML, CSS, JavaScript, React)</li>
+        <li>Problem-solving and debugging</li>
+        <li>Writing clear and maintainable code</li>
+        <li>Communicating technical ideas simply</li>
+      </ul>
+    </section>
+
+    <section data-testid="test-about-future-note">
+      <h2>Note to Future Self</h2>
+      <blockquote>
+        Keep pushing forward, even when things feel uncertain. Trust your instincts, stay humble, and never stop creating.
+        You've already overcome so much—don't forget to look back and be proud.
+      </blockquote>
+    </section>
+
+    <section data-testid="test-about-extra-thoughts">
+      <h2>Extra Thoughts</h2>
+      <p>
+        Life isn't just about reaching the next milestone—it's also about enjoying the process. Don’t be afraid to pause,
+        appreciate how far you've come, and spend time on what makes you feel alive.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p data-testid="test-about-footer-note">&copy; 2025 Perry's Journal. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
